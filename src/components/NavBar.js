@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/logo_pt.png';
-import navIcon1 from '../assets/nav-icon1.svg';
-import navIcon2 from '../assets/nav-icon2.png';
-import navIcon3 from '../assets/nav-icon3.svg';
+import logo from '../assets/img/logo_pt.png';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.png';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
 import {
   BrowserRouter as Router
@@ -54,7 +54,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/alayna-shaheen-782680249"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/AlaynaShaheen" className="icon2"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.instagram.com/alayna__shaheen/"><img src={navIcon3} alt="" /></a>
               </div>
               
                <a href="https://drive.google.com/file/d/1RdXvGFbS-QYS3BZuWh0higUKu5EJqSxi/view?usp=sharing"><button className="vvd"><span>My Resume</span></button></a>
