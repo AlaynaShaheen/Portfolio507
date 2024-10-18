@@ -822,7 +822,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   nav.navbar .dropdown-menu .dropdown-item {
     width: 100%;
     text-align: center;
-    padding: 12px 0;
+    padding: 10px 0;
     font-size: 18px;
     color: #fff;
     opacity: 0.85;
@@ -856,6 +856,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 12px 0;
   }
 
+  .banner{
+    padding-top:180px;
+  }
   .banner img {
     display: none;
   }
