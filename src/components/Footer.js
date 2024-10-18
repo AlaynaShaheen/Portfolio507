@@ -1,9 +1,9 @@
 import { Container,Row,Col } from "react-bootstrap";
-import navIcon1 from '../assets/nav-icon1.svg';
-import navIcon2 from '../assets/nav-icon2.svg';
-import navIcon3 from '../assets/nav-icon3.svg';
-import github from '../assets/github.png';
-import logo from '../assets/logo_pt.png';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
+import github from '../assets/img/github.png';
+import logo from '../assets/img/logo_pt.png';
 export const Footer = () =>{
     return (
         <footer className="footer">
@@ -16,7 +16,7 @@ export const Footer = () =>{
                    <Col sm={6} className="text-center text-sm-end">
                    <div className="social-icon">
                 <a href="https://www.linkedin.com/in/alayna-shaheen-782680249"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.instagram.com/alayna__shaheen/"><img src={navIcon3} alt="" /></a>
                 <a href="https://github.com/AlaynaShaheen"><img src={github} alt="" /></a>
                 <p>@alayna shaheen</p>
                    <p>CopyRight 2024. All Rights Reserved</p>
